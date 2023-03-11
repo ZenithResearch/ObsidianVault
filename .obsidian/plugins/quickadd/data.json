@@ -1,0 +1,436 @@
+{
+  "choices": [
+    {
+      "id": "d21b01f1-9f53-4235-94cb-59b1d6d0627d",
+      "name": "Create Project",
+      "type": "Macro",
+      "command": true,
+      "macroId": "8b499620-0a78-4251-b200-704ac40c47b8"
+    },
+    {
+      "id": "42d8820c-e0fd-4592-a1af-0f82eed46959",
+      "name": "Create Project Board",
+      "type": "Template",
+      "command": false,
+      "templatePath": "templates/ProjectBoard",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:projectName}}/ProjecBoard.md"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "7_Projects"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "5316ed7a-fb0b-4471-8cf3-7387cb4a51e9",
+      "name": "Create Project Dashboard",
+      "type": "Template",
+      "command": false,
+      "templatePath": "template/ProjectDashboard",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:projectName}}/ProjectDashboard.md"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "7_Projects"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "fd26507b-6534-44c7-a59a-591e1bd14e7c",
+      "name": "Add Issue",
+      "type": "Macro",
+      "command": true,
+      "macroId": "d7ee2c8d-b191-47b4-8ecf-4f65ee0a2be4"
+    },
+    {
+      "id": "448e0526-786c-407d-9215-6b0b56606833",
+      "name": "Create Issue Note",
+      "type": "Template",
+      "command": false,
+      "templatePath": "templates/Issue",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date:YYYY-MM-DD}}_{{value:title}}.md"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "7_Projects/{{value:project}}/wiki/tasks"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "cd9f2b95-25a4-43f0-a8c1-8f4f9349ae71",
+      "name": "Capture Idea",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "6_Journal/Daily/{{date}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "templates/DailyNote"
+      },
+      "format": {
+        "enabled": true,
+        "format": ""
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Big Ideas",
+        "insertAtEnd": true,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "e2fb3920-3c5d-41bb-b113-a86c30d3998d",
+      "name": "Capture Issue",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "6_Journal/Daily/{{date}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "#review {{linkcurrent}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Created",
+        "insertAtEnd": true,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "ae86095d-704c-4a5c-8b00-c12ade3f4b10",
+      "name": "Update Issue",
+      "type": "Macro",
+      "command": true,
+      "macroId": "61b3d6c1-9a37-4cef-bd63-52655496126a"
+    },
+    {
+      "id": "57ebe704-028d-4f1a-92be-1415addcea1f",
+      "name": "Create Idea",
+      "type": "Template",
+      "command": false,
+      "templatePath": "templates/Idea",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date}}_{{value:name}}.md"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "6_Journal/Ideas"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "e32ce764-2a99-485c-8111-1311fe0275c2",
+      "name": "Capture Idea",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "6_Journal/Daily/{{date}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] #IDEA: [[{{date}}_{{value:name}}]]"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Big Ideas",
+        "insertAtEnd": true,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "babc723c-3a2c-4a7e-bb3b-cb954fab0c73",
+      "name": "New Idea",
+      "type": "Macro",
+      "command": true,
+      "macroId": "ea8debd6-889b-454d-aafe-2343d7163c0c"
+    },
+    {
+      "id": "7d8cc51c-809c-4af6-a743-7e8c8ce7c099",
+      "name": "Add Goal Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/Goal",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE}}_{{value:title}}.md"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "5_Goals"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "d565219a-91ba-4003-b069-cb0e6de95061",
+      "name": "Create Kickoff Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/ClientKickoffMeeting",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date}}_{{value:title}}.md"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "6_Journal/Meetings/Sprint/Kickoff"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Create Project",
+      "id": "8b499620-0a78-4251-b200-704ac40c47b8",
+      "commands": [
+        {
+          "name": "Create Project Dashboard",
+          "type": "NestedChoice",
+          "id": "a5fb8fc0-ccf9-41c0-be0b-3523f52645ab",
+          "choice": {
+            "id": "eb55a228-9c14-4c9c-a75b-19f2bb1ceb02",
+            "name": "Create Project Dashboard",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/ProjectDashboard",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "/{{VALUE:projectName}}/ProjectDashboard.md"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "7_Projects"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Create Project Board",
+          "type": "NestedChoice",
+          "id": "be85f3a5-1c9e-4521-b473-9dd1bf856376",
+          "choice": {
+            "id": "77bcf753-244d-46f5-a2ce-405c84638b60",
+            "name": "Create Project Board",
+            "type": "Template",
+            "command": false,
+            "templatePath": "templates/ProjectBoard",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{value:projectName}}/ProjectBoard.md"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "7_Projects"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "8d2877b2-1001-416f-ab57-7f0f7e2bbd89",
+          "time": 500
+        },
+        {
+          "name": "ZenithProjectMan: Clone Project Wiki",
+          "type": "Obsidian",
+          "id": "ef067fa6-9bfc-45be-8dee-5d2b476435ad",
+          "commandId": "Z-PM:clone-project-wiki"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add Issue",
+      "id": "d7ee2c8d-b191-47b4-8ecf-4f65ee0a2be4",
+      "commands": [
+        {
+          "name": "ZenithProjectMan: Add issue",
+          "type": "Obsidian",
+          "id": "7042cbea-44f2-4689-9159-8b2f81a7c0df",
+          "commandId": "Z-PM:add-issue"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Update Issue",
+      "id": "61b3d6c1-9a37-4cef-bd63-52655496126a",
+      "commands": [
+        {
+          "name": "ZenithProjectMan: Update issue",
+          "type": "Obsidian",
+          "id": "c601759f-e375-414b-86ad-dd4352a1576a",
+          "commandId": "Z-PM:update-issue"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create Idea",
+      "id": "ea8debd6-889b-454d-aafe-2343d7163c0c",
+      "commands": [
+        {
+          "name": "Capture Idea",
+          "type": "Choice",
+          "id": "16f38828-eded-4bf1-a06a-7ef8e08ab71d",
+          "choiceId": "cd9f2b95-25a4-43f0-a8c1-8f4f9349ae71"
+        },
+        {
+          "name": "Create Idea",
+          "type": "Choice",
+          "id": "13c0cad8-6fcb-4bd1-a5b6-e3176b4002c9",
+          "choiceId": "57ebe704-028d-4f1a-92be-1415addcea1f"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "multi-line",
+  "devMode": false
+}

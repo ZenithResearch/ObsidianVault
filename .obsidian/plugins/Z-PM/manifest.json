@@ -1,0 +1,11 @@
+{
+	"id": "Z-PM",
+	"name": "ZenithProjectMan",
+	"version": "0.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "Automate your project management, and wiki generation with obsidian and GitHub",
+	"author": "Obsidian",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

@@ -1,0 +1,10 @@
+{
+  "showFrontmatter": true,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-US",
+    "en-CA"
+  ],
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
+}

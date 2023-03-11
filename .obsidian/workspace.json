@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "da9fb7ee6642d6f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a78486b46d0118a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d65cf9dc62f116e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6_Journal/Daily/2023-03-01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "795a4b12d36356ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "18_Companies/ZenithVenturesIncorporated/Roles/Bots and Plugins Dev/Dashboard.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1bbe565c0d1850d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "18_Companies/ZenithVenturesIncorporated/Roles/Bots and Plugins Dev/Dashboard.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c44c971f75a76117",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6_Journal/Daily/2023-03-03.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8e6d689faf38ca6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7_Projects/DayCall/wiki/Debugging the API.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f9e99ca52d219961",
+    "type": "split",
+    "children": [
+      {
+        "id": "7874cb0b7c90d815",
+        "type": "tabs",
+        "dimension": 52.5,
+        "children": [
+          {
+            "id": "b5aa20695c5f80e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a2fd7f2387b1b2ca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#goal",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6d22944d092766ee",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "acd05db94de1c527",
+        "type": "tabs",
+        "dimension": 19.230769230769234,
+        "children": [
+          {
+            "id": "e35a7bdf0b54f2f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8b26129d85ac2c39",
+        "type": "tabs",
+        "dimension": 28.26923076923077,
+        "children": [
+          {
+            "id": "742bf883449fb5f7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "18_Companies/ZenithVenturesIncorporated/Roles/Bots and Plugins Dev/Dashboard.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "c08f0985455b95e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8391db6b7411a3f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15ec7f12c12e2e35",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "18_Companies/ZenithVenturesIncorporated/Roles/Bots and Plugins Dev/Dashboard.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bebfd8d550441442",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "18_Companies/ZenithVenturesIncorporated/Roles/Bots and Plugins Dev/Dashboard.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "1bbe565c0d1850d4",
+  "lastOpenFiles": [
+    "18_Companies/ZenithVenturesIncorporated/Roles/Bots and Plugins Dev/Interviews/Vasil_Interview.md",
+    "6_Journal/Daily/2023-03-03.md",
+    "18_Companies/ZenithVenturesIncorporated/Roles/Bots and Plugins Dev/Dashboard.md",
+    "0_Notes/Untitled.md",
+    "7_Projects/DayCall/wiki/assets/DayCallUML.pdf",
+    "8_People/VasileChirac.md",
+    "18_Companies/ZenithVenturesIncorporated/Roles/Bots and Plugins Dev/Interviews",
+    "6_Journal/Daily/2023-03-01.md",
+    "18_Companies/ZenithVenturesIncorporated/Roles/Bots and Plugins Dev",
+    "18_Companies/ZenithVenturesIncorporated/Roles",
+    "18_Companies/ZenithVenturesIncorporated/docs/Testing and CICD Instructional (GitHub Actions).md",
+    "7_Projects/DayCall/wiki/Debugging the API.md",
+    "18_Companies/ZenithVenturesIncorporated/docs/Software Development Process and Standards.md",
+    "18_Companies/ZenithVenturesIncorporated/docs/Setup Guide For Software Dev.md",
+    "18_Companies/ZenithVenturesIncorporated/docs/CICD Guide.md",
+    "6_Journal/Daily/2023-02-28.md",
+    "7_Projects/DayCall/wiki/Setup.md",
+    "6_Journal/Meetings/Sprint/Reviews/2023-02-28.md",
+    "6_Journal/Meetings/Sprint/Reviews",
+    "6_Journal/Meetings/Agenda/DayCall_EquipDropship_Consultation.md",
+    "7_Projects/Yehoshua/wiki/Roadmap.md",
+    "templates/Issue.md",
+    "7_Projects/Yehoshua/assets/Yehoshua_ERD.pdf",
+    "7_Projects/Yehoshua/assets",
+    "7_Projects/Yehoshua/New folder",
+    "7_Projects/Yehoshua/ProjectDashboard.md",
+    "6_Journal/Daily/2023-02-23.md",
+    "7_Projects/Yehoshua/wiki/Home.md",
+    "7_Projects/Yehoshua/wiki",
+    "7_Projects/Yehoshua/ProjectBoard.md",
+    "7_Projects/Yehoshua",
+    "7_Projects/RealEstateAutomationPipeline/wiki/OpenAI-Integration-to-Auto-Gen-Email-Content-for-Top-5-Properties-Each-Week.md",
+    "7_Projects/RealEstateAutomationPipeline/wiki/ORM.md",
+    "6_Journal/Daily/2023-02-22.md",
+    "18_Companies/HostGenius Management Inc/docs/Listing Data.md",
+    "6_Journal/Daily/2023-02-21.md"
+  ]
+}

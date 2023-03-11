@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "name": "DayCall",
+      "repo": "https://github.com/ZenithResearch/escuro.git",
+      "wiki": "github.com/ZenithResearch/escuro.wiki.git",
+      "projectBoard": "DayCall"
+    },
+    {
+      "name": "RealEstateAutomationPipeline",
+      "repo": "https://github.com/ZenithResearch/realestate-lead-automation-pipeline.git",
+      "wiki": "github.com/ZenithResearch/realestate-lead-automation-pipeline.wiki.git",
+      "projectBoard": "RealEstateInvestmentScreener"
+    },
+    {
+      "name": "Yehoshua",
+      "repo": null,
+      "wiki": "github.com/ZenithResearch/yehoshua.wiki.git",
+      "projectBoard": null
+    }
+  ]
+}
